@@ -8,4 +8,4 @@ function simpleArraySum(ar, n) {
     }
 }
 
-//console.log(simpleArraySum([1,2,3,4,10,11],6));
+console.log(simpleArraySum([1,2,3,4,10,11],6));
