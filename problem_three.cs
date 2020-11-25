@@ -15,11 +15,11 @@ class Solution {
          var sortedKeyboardPrices = from keyboard in keyboards
                                        orderby keyboard descending
                                        select keyboard;
-            var sortedDrivePrices = from drive in drives
+         var sortedDrivePrices = from drive in drives
                                     orderby drive ascending
                                     select drive;
             //default if not able to purchase anything
-            var maxMoneySpendable = -1;
+          var maxMoneySpendable = -1;
 
             foreach (var keyboard in sortedKeyboardPrices)
             {
